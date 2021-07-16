@@ -9,6 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -26,6 +27,34 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+<!-- Start of Async Drift Code -->
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('u8m286p9npa6');
+  </script>
 
 </head>
 
@@ -120,7 +149,7 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+            <h2>Haha ipsum dolor sit amet, consectetur adipiscing</h2>
             <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
 
             <ul>
@@ -130,7 +159,7 @@
             </ul>
 
             <h1>MUSA Constitution</h1>
-            <p>Open the constitution <a href="assets/constitution/MusaConstitution.pdf">here</a>.</p>
+            <p>Open the constitution <a href="assets/constitution/MusaConstitution.pdf#toolbar=0">here</a>.</p>
 
           </div>
         </div>
