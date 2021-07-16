@@ -1,8 +1,11 @@
-/**
-* Template Name: Reveal - v4.3.0
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+/*const registerView = document.getElementById('register');
+registerView.addEventListener('click',registerV);
+
+function registerV() {
+  main.innerHTML = `
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shr6UuVuzN2ipB6N7?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="1000px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    `;
+};
 */
 (function() {
   "use strict";
