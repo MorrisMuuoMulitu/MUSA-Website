@@ -448,16 +448,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #50d8af;
 }
 
-#hero .hero-content .btn-registerhere {
-  background: #d86b50;
-  border: 2px solid #d86450;
-}
-
-#hero .hero-content .btn-registerhere:hover {
-  background: none;
-  color: #d86450;
-}
-
 #hero .hero-slider {
   z-index: 8;
   height: 60vh;
