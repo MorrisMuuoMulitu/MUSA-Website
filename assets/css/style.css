@@ -1259,3 +1259,20 @@ section {
 #footer .credits a {
   color: #0c2e8a;
 }
+
+.btn-submit:hover {
+  background-color: #0074D9;
+  border-color: #0074D9;
+  color: #ffffff;
+}
+
+
+.form-group label,
+button[type="submit"] {
+  text-align: center;
+}
+
+.form-actions {
+  margin-top: 10px;
+}
+

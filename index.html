@@ -720,48 +720,65 @@
     <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>While we're good with smoke signals, there are simpler ways for us to get in touch and answer your questions.</p>
-        </div>
+<section id="contact">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>While we're good with smoke signals, there are simpler ways for us to get in touch and answer your questions.</p>
+    </div>
 
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>P.O Box 96, Wote 90300, Kenya</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+254705329860">+254 704 406 600</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:musamakueni017@gmail.com">musamakueni017@gmail.com</a></p>
-            </div>
-          </div>
-
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="info-box mb-4">
+          <i class="bi bi-geo-alt"></i>
+          <h3>Address</h3>
+          <p>P.O Box 96, Wote 90300, Kenya</p>
         </div>
       </div>
 
-      <div class="container mb-4">
-        <iframe src="https://maps.google.com/maps?q=Wote%20town%20makueni&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="col-lg-4">
+        <div class="info-box mb-4">
+          <i class="bi bi-phone"></i>
+          <h3>Phone Number</h3>
+          <p><a href="tel:+254705329860">+254 704 406 600</a></p>
+        </div>
       </div>
 
+      <div class="col-lg-4">
+        <div class="info-box mb-4">
+          <i class="bi bi-envelope"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:musamakueni017@gmail.com">musamakueni017@gmail.com</a></p>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </div>
+
+    <div class="text-center">
+      <form action="form.php" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" name="name" id="name" class="form-control" required minlength="4" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" id="subject" class="form-control" required minlength="8" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="form-control" required rows="5" placeholder="Message"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-submit" name="submit" id="submit" value="Send Message">Send Message</button>
+        </div>
+    </div>
+    
+    
+
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
