@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MUSA</title>
 
-  <title>MUSA</title>
+    <meta name="description"
+      content="Makueni University Students Association (MUSA) is a student-led organization that aims to promote the interests of students at the university and in Kenyan colleges.">
+    <meta name="keywords"
+      content="makueni, university, comrades, musa, makueni university, makueni university students association, makueni county, kenyan students, kenyan students association, kenyan university, kenyan university students association">
+    <!-- Mission -->
+    <meta name="mission"
+      content="To promote the interests of students at the university and in Kenyan colleges. To provide a platform for students to network and collaborate with each other.">
+    <!-- Core Values -->
+    <meta name="core-values" content="unity, vision, progress">
+    <!-- Services -->
+    <meta name="services"
+      content="MUSA provides a range of services to its members, including networking opportunities, career guidance, and student support.">
+    <!-- Team Expertise -->
+    <meta name="team"
+      content="Led by a President, Vice-President, Secretary, Treasurer, and an executive body, MUSA is a student-led organization that is committed to promoting the interests of students at the university and in Kenyan colleges.">
+    <meta name="author" content="Morris Mulitu | Web Developer">
 
-  <meta name="description"
-    content="Makueni University Students Association (MUSA) is a student-led organization that aims to promote the interests of students at the university and in Kenyan colleges.">
-  <meta name="keywords"
-    content="makueni, university, comrades, musa, makueni university, makueni university students association, makueni county, kenyan students, kenyan students association, kenyan university, kenyan university students association">
-  <!-- Mission -->
-  <meta name="mission"
-    content="To promote the interests of students at the university and in Kenyan colleges. To provide a platform for students to network and collaborate with each other.">
-  <!-- Core Values -->
-  <meta name="core-values" content="unity, vision, progress">
-  <!-- Services -->
-  <meta name="services"
-    content="MUSA provides a range of services to its members, including networking opportunities, career guidance, and student support.">
-  <!-- Team Expertise -->
-  <meta name="team"
-    content="Led by a President, Vice-President, Secretary, Treasurer, and an executive body, MUSA is a student-led organization that is committed to promoting the interests of students at the university and in Kenyan colleges.">
-  <meta name="author" content="Morris Mulitu | Web Developer">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-<!-- Start of Async Drift Code -->
-<script>
-  "use strict";
+  <!-- Start of Async Drift Code -->
+  <script>
+    "use strict";
   
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
         };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('u8m286p9npa6');
-  </script>
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('u8m286p9npa6');
+    </script>
 
-</head>
+  </head>
 
 <body>
 
@@ -94,16 +93,9 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between">
-
-      <div id="logo">
-         <a href="index.html"><img src="assets/img/"
-     
-        
-          alt=""></a>
-
-    
-
-      </div>
+            <div id="logo">
+              <a href="index.html"><img src="https://ik.imagekit.io/5zp8ovb7c/MUSA/musa_logo.jpg?updatedAt=1732220026021" alt="MUSA logo"></a>
+            </div>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -116,7 +108,7 @@
           <!--<li class="dropdown"><a href="#"><span>Chapters</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Kaiti</a></li>
-              <li><a href="#">Kibwezi East</a></li>
+              <li><a href="#">Kibwezi Est</a></li>
               <li><a href="#">Kibwezi West</a></li>
               <li><a href="#">Kilome</a></li>
               <li><a href="#">Makueni</a></li>
@@ -133,7 +125,6 @@
 
   <!-- ======= Top Section ======= -->
   <section id="hero">
-
     <div class="hero-content" data-aos="fade-up">
       <h2>Makueni <span>University Students'</span><br> Association</h2>
       <div>
@@ -142,7 +133,7 @@
       </div>
     </div>
 
-    <div class="hero-slider swiper-container">
+    <div class="hero-slider swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/1.jpg');"></div>
         <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/2.jpg');"></div>
@@ -150,51 +141,53 @@
         <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/4.jpg');"></div>
         <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/5.jpg');"></div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
-
-  </section><!-- End Top Section -->
+  </section>
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about">
+    <section id="about" class="section-bg">
       <div class="container" data-aos="fade-up">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-lg-6 about-img">
-            <img src="assets/img/mockup.jpg" alt="">
+            <img src="assets/img/mockup.jpg" alt="MUSA Image" class="img-fluid">
           </div>
 
           <div class="col-lg-6 content">
             <h2>About MUSA</h2>
-            <h3>The pillars of MUSA include, Unity, Vision & Progress</h3>
+            <h3>The pillars of MUSA include Unity, Vision & Progress</h3>
 
-            <ul>
-              <li><i class="bi bi-check-circle"></i>Vision</li>
-              <p>To make Makueni shine in producing competent and reliable graduates. </p>
-              <li><i class="bi bi-check-circle"></i> Mission</li>
-              <p>To build and strengthen peaceful interactions within the society through youth
-                empowerment trainings, awareness creation, advocacy and collaborations.</p>
-              <li><i class="bi bi-check-circle"></i> Aim</li>
-              <p>The Association seeks to unite students, alumni and professionals and achieve a point where they will view diversity in ideologies as a positive aspect of the development.
-                It seeks to strengthen the spirit of brotherhood among the members. 
-             </p>
-            </ul>
+            <div class="about-content">
+              <div class="about-item">
+                <i class="bi bi-check-circle"></i>
+                <h4>Vision</h4>
+                <p>To make Makueni shine in producing competent and reliable graduates.</p>
+              </div>
 
-            <h1>MUSA Constitution</h1>
-            <p>Open the constitution <a href="assets/constitution/MusaConstitution.pdf#toolbar=0">here</a>.</p>
+              <div class="about-item">
+                <i class="bi bi-check-circle"></i>
+                <h4>Mission</h4>
+                <p>To build and strengthen peaceful interactions within the society through youth empowerment trainings, awareness creation, advocacy and collaborations.</p>
+              </div>
 
+              <div class="about-item">
+                <i class="bi bi-check-circle"></i>
+                <h4>Aim</h4>
+                <p>The Association seeks to unite students, alumni and professionals and achieve a point where they will view diversity in ideologies as a positive aspect of the development. It seeks to strengthen the spirit of brotherhood among the members.</p>
+              </div>
+            </div>
+
+            <div class="constitution-section">
+              <h3>MUSA Constitution</h3>
+              <p>View our constitution <a href="assets/constitution/MusaConstitution.pdf#toolbar=0" target="_blank" class="constitution-link">here</a>.</p>
+            </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
-
-   
-
-    <!-- ======= Services Section ======= -->
+    </section>    <!-- ======= Services Section ======= -->
     <section id="services">
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
+        <div class="section-header"
           <h2>Services</h2>
           <p>MUSA prides itself in collaborating with students and other stakeholders to offer the following services. </p>
         </div>
@@ -248,9 +241,10 @@
 
         <div class="clients-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/makueni.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/Dalworth.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/Asgard.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/makueni.png" class="img-fluid" alt="Makueni county Logo"></div>
+            <div class="swiper-slide"><img src="https://ik.imagekit.io/5zp8ovb7c/MUSA/kgc.webp?updatedAt=1732220827687" class="img-fluid" alt="KGC Logo"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Dalworth.jpeg" class="img-fluid" alt="Dalworth Logo"></div>
+            <div class="swiper-slide"><img src="assets/img/Asgard.png" class="img-fluid" alt="Asgard Logo"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -272,8 +266,8 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-web">Environment</li>
               <li data-filter=".filter-day">MUSA Day 2020</li>
-              <li data-filter=".filter-app">Charity</li>
-              <li data-filter=".filter-card">Mentorship</li>
+              <li data-filter=".filter-pp">Charity</li>
+              <li data-filter=".filte-card">Mentorship</li>
             </ul>
           </div>
         </div>
@@ -554,7 +548,7 @@
                 </p>
                 <img src="assets/img/kinyosi.jpg" class="testimonial-img" alt="">
                 <h3>Oness Kinyosi</h3>
-                <h4></h4>
+                <h4>Member</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -603,18 +597,17 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action">
       <div class="container" data-aos="zoom-out">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3 class="cta-title">Call To Action</h3>
+            <h3 class="cta-title">Join MUSA Today!</h3>
             <p class="cta-text">Register as a MUSA member and join your respective chapter's social media platforms.
               Links attached at the end of the registration form.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="https://bit.ly/MUSA_Register2">Join MUSA</a>
+            <a class="cta-btn align-middle" href="https://bit.ly/MUSA_Register2">Register Now</a>
           </div>
         </div>
       </div>
@@ -777,7 +770,6 @@
 
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

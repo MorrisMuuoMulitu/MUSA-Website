@@ -164,6 +164,39 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
 }
 
+#logo {
+  padding: 10px 0;
+}
+
+#logo img {
+  max-height: 75px;
+  width: auto;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #logo {
+    padding: 5px 0;
+  }
+  
+  #logo img {
+    max-height: 45px;
+  }
+}
+
+/* Ensure logo visibility */
+#logo a {
+  display: inline-block;
+}
+
+/* Prevent logo from being hidden */
+#header #logo {
+  position: relative;
+  z-index: 100;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
